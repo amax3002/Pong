@@ -35,7 +35,7 @@ public class SpawnerRandom : MonoBehaviour
     public void SpawnObject()
     {
 
-        Vector2 position = new Vector2(Random.Range(-8, 8), Random.Range(-5, 5));
+        Vector2 position = new Vector2(Random.Range(-7.5f, 7.5f), Random.Range(-4.5f, 4.5f));
         Instantiate(objectToSpawn, position, Quaternion.identity);
 
         //   Instantiate(objectToSpawn, transform.position, Quaternion.identity);

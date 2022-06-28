@@ -19,3 +19,5 @@ public class Paddle : MonoBehaviour
         _rigidbody.velocity = Vector2.zero;
     }
 }
+
+//GitHub Branch Tests

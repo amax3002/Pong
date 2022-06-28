@@ -20,4 +20,4 @@ public class Paddle : MonoBehaviour
     }
 }
 
-//GitHub Branch Test
+//GitHub Branch Tests
